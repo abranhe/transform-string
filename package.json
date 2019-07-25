@@ -1,6 +1,6 @@
 {
 	"name": "transform-string",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Transform any string using properties CSS like",
 	"license": "MIT",
 	"repository": "abranhe/transform-string",
