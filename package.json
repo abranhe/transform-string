@@ -1,0 +1,33 @@
+{
+	"name": "transform-string",
+	"version": "0.0.0",
+	"description": "Transform any string using properties CSS like",
+	"license": "MIT",
+	"repository": "abranhe/transform-string",
+	"author": {
+		"name": "Abraham Hernandez",
+		"email": "abraham@abranhe.com",
+		"url": "abranhe.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"transform",
+		"string",
+		"string-manipulation",
+		"truncate"
+	],
+	"devDependencies": {
+		"ava": "^2.2.0",
+		"tsd": "^0.7.3",
+		"xo": "^0.24.0"
+	}
+}
