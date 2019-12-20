@@ -13,13 +13,13 @@ $ npm install transform-string
 ## Usage
 
 ```js
-const transformString = ('transform-string');
+const transformString = require('transform-string');
 
 transformString('unicorns');
 //=> 'Unicorns'
 
-transformString.capitalize('hello world');
-//=> 'Hello World'
+transformString.lowercase('Hello World');
+//=> 'hello world'
 ```
 or
 
